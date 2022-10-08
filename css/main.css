@@ -1,0 +1,19 @@
+#newtaskarea{
+    background-color: #17a2b8;
+
+}
+.close{
+    color: red;
+}
+#notasks{
+    margin-bottom: 0px;;
+}
+.checked{
+    background-color: gray;
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+.toggle-line{
+    text-decoration: line-through;
+}

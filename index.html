@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/pen-logo-isolated-line-art-fire-design-74189737.jpg">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="alert alert-primary" role="alert">
+            <h1 class="display-5 text-center">To Do List</h1>
+        </div>
+    </div>
+
+    <div class="container bg-info">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputTask1">Input the task name</label>
+              <input type="text" class="form-control" id="input-area" placeholder="ex.: clean the backyard area">
+              <small id="emailHelp" class="form-text text-muted">Manage your day... change the world.</small>
+            </div>
+            <button type="submit" class="btn btn-primary" id="click-create">Create A Task</button>
+          </form>
+    </div>
+    <div class="container alert alert-danger" role="alert" id="notasks">
+        No tasks added yet !!!
+    </div>
+    <div class="container" id="newtaskarea">
+        <div class="alert alert-warning checked" role="alert">
+            Ali Mindal<button type="button" class="close" id="deleteTask" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+    
+</body>
+
+</html>
